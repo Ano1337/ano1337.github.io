@@ -8,7 +8,7 @@ description: >
 
 # baseurl: ""
 # url: "http://thdc.gov.np"
-baseurl: ""
+baseurl: "/"
 url: "http://devsthdc.github.io"
 markdown: kramdown
 
