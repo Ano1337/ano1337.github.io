@@ -1,0 +1,32 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+title: THDC, Mustang
+email: info@thdcmustang.gov.np
+description: >
+  The Office of the Temperate Horticulture Development Center in Mustang.
+
+# baseurl: ""
+# url: "http://thdc.gov.np"
+baseurl: "/cto-website"
+url: "http://ano1337.github.io"
+markdown: kramdown
+
+collections:
+  team:
+    permalink: /team/:name/
+    output: true
+  guides:
+    permalink: /guides/:title/
+    output: true
+
+defaults:
+  -
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: guides
+    values:
+      layout: guide
