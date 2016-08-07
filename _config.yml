@@ -12,6 +12,8 @@ baseurl: ""
 url: "http://devsthdc.github.io"
 markdown: kramdown
 
+encoding: UTF-8
+
 collections:
   team:
     permalink: /team/:name/
